@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Circumferemce</title>
+        <style>
+            #Circum {
+                display:grid;
+                place-items:center;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 id="Circum"></h1>
+        <script type="text/javascript">
+           
+            const calcCircumference = () => {
+                const pi = 3.14;
+                let circum = prompt("Enter the Radius");
+                let total = 2 * pi * Number(circum);
+                document.getElementById("Circum").innerHTML="The  Circumference is " + "" + total;
+            };
+            calcCircumference();
+        </script>
+    </body>
+</html>
